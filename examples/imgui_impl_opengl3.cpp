@@ -117,6 +117,7 @@
 #include <glad/glad.h>  // Needs to be initialized with gladLoadGL() in user's code
 #else
 #include IMGUI_IMPL_OPENGL_LOADER_CUSTOM
+using namespace gl;
 #endif
 #endif
 
